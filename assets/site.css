@@ -1,0 +1,113 @@
+/* Yokohama & Fujisawa, Actually
+   One idea carries the design: every page hangs off a railway line, drawn down the left edge,
+   and each section is a station on it. Blue is Yokohama (the municipal subway's Blue Line),
+   green is Fujisawa (the Enoden's cars). Everything else stays quiet. */
+@font-face{font-family:"Literata";src:url("fonts/literata-latin-wght-normal.woff2") format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Literata";src:url("fonts/literata-latin-wght-italic.woff2") format("woff2");font-weight:200 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Barlow Semi Condensed";src:url("fonts/barlow-semi-condensed-latin-500-normal.woff2") format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Barlow Semi Condensed";src:url("fonts/barlow-semi-condensed-latin-600-normal.woff2") format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Barlow Semi Condensed";src:url("fonts/barlow-semi-condensed-latin-700-normal.woff2") format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  --paper:#F4F7F9; --board:#FFFFFF; --ink:#14283C; --muted:#52677A; --rule:#D3DDE5;
+  --yokohama:#0A62AE; --fujisawa:#2A7354; --signal:#D96A0B;
+  --line:var(--ink); --dot:var(--ink);
+  --sign:"Barlow Semi Condensed","Arial Narrow","Hiragino Sans","Yu Gothic",sans-serif;
+  --text:"Literata",Georgia,"Hiragino Mincho ProN","Yu Mincho",serif;
+  --gutter:1.9rem;
+}
+.city-yokohama{--line:var(--yokohama);--dot:var(--yokohama)}
+.city-fujisawa{--line:var(--fujisawa);--dot:var(--fujisawa)}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--text);font-size:1.125rem;line-height:1.68}
+.wrap{max-width:45rem;margin:0 auto;padding:0 1.25rem}
+a{color:inherit;text-decoration:underline;text-decoration-color:var(--line);text-decoration-thickness:2px;text-underline-offset:.18em}
+a:hover{background:color-mix(in srgb,var(--line) 12%,transparent)}
+:focus-visible{outline:3px solid var(--signal);outline-offset:2px;border-radius:2px}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:var(--board);padding:.4rem .7rem;z-index:5}
+
+.top{border-bottom:1px solid var(--rule);background:var(--board)}
+.top-in{display:flex;flex-wrap:wrap;gap:.4rem 1.5rem;align-items:baseline;justify-content:space-between;padding-top:.8rem;padding-bottom:.8rem}
+.brand{font-family:var(--sign);font-weight:700;font-size:1.2rem;text-decoration:none}
+.top nav{display:flex;gap:1.2rem;font-family:var(--sign);font-weight:500;font-size:1.05rem}
+.top nav a{text-decoration-color:transparent}.top nav a:hover{text-decoration-color:var(--line)}
+
+h1,h2,h3{font-family:var(--sign);line-height:1.08;margin:0;text-wrap:balance}
+.meta{display:flex;flex-wrap:wrap;gap:.2rem 1.1rem;align-items:center;margin:0 0 .7rem;font-family:var(--sign);font-weight:500;font-size:1rem;color:var(--muted)}
+.tag{color:var(--ink);font-weight:600;border:2px solid var(--line);border-radius:4px;padding:0 .45em;line-height:1.5;background:var(--board)}
+.city-both .tag{border-image:linear-gradient(90deg,var(--yokohama),var(--fujisawa)) 1;border-radius:0}
+.dek{margin:.6rem 0 0;font-size:1.22rem;line-height:1.5;color:var(--muted)}
+.note{color:var(--muted);font-size:.95rem}
+
+/* Front page */
+.hero{padding:3.2rem 0 2.2rem}
+.hero h1{font-weight:700;font-size:clamp(2.9rem,11vw,5.6rem);line-height:.94;letter-spacing:-.015em;max-width:11ch}
+.hero .promise{font-size:1.3rem;line-height:1.5;margin:1.4rem 0 0;max-width:34ch}
+.hero .how{color:var(--muted);margin:.8rem 0 0;max-width:46ch}
+.route{list-style:none;margin:0 0 4rem;padding:0 0 0 var(--gutter);border-left:4px solid var(--ink);border-image:linear-gradient(var(--yokohama),var(--fujisawa)) 1}
+.stop{position:relative;padding:1.3rem 0 1.5rem}
+.stop + .stop{border-top:1px solid var(--rule)}
+.stop::before,.prose h2::before{content:"";position:absolute;left:calc(-1 * var(--gutter) - 2px);width:18px;height:18px;margin-left:-9px;border-radius:50%;background:var(--board);border:4px solid var(--dot)}
+.stop::before{top:1.55rem}
+.stop h2{font-weight:700;font-size:clamp(1.55rem,4.6vw,2.05rem)}
+.stop h2 a{text-decoration:none}.stop h2 a:hover{text-decoration:underline;text-decoration-color:var(--line)}
+.stop .dek{font-size:1.08rem}
+
+/* A piece */
+.piece-head{padding:2.6rem 0 1.6rem}
+.piece-head h1{font-weight:700;font-size:clamp(2.2rem,7vw,3.5rem);letter-spacing:-.01em}
+.actually{background:var(--board);border:1px solid var(--rule);border-top:6px solid var(--line);padding:1rem 1.25rem 1.2rem;margin:0 0 2.4rem}
+.city-both .actually{border-image:linear-gradient(90deg,var(--yokohama),var(--fujisawa)) 1;border-width:6px 0 0}
+.actually-head{display:flex;justify-content:space-between;align-items:baseline;margin:0 0 .6rem;font-family:var(--sign)}
+.actually-name{font-weight:700;font-size:1.35rem}
+.actually-date{font-weight:500;color:var(--muted);font-size:1rem}
+.actually dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(12.5rem,1fr));gap:1rem 1.5rem;margin:0}
+.actually dt{font-family:var(--sign);font-weight:500;color:var(--muted);font-size:1rem}
+.actually dd{margin:0}
+.actually .val{display:block;font-family:var(--sign);font-weight:700;font-size:1.75rem;line-height:1.15;font-variant-numeric:tabular-nums}
+.actually .note{display:block;line-height:1.4;margin-top:.15rem}
+
+.line{border-left:4px solid var(--line);padding-left:var(--gutter)}
+.city-both .line{border-image:linear-gradient(var(--yokohama),var(--fujisawa)) 1}
+.prose > *:first-child{margin-top:0}
+.prose p,.prose ul,.prose ol{margin:0 0 1.15em}
+.prose h2{position:relative;font-weight:700;font-size:clamp(1.55rem,4.4vw,1.95rem);margin:2.4rem 0 .8rem}
+.prose h2::before{top:.28em}
+.prose h3{font-weight:600;font-size:1.3rem;margin:1.8rem 0 .5rem}
+.prose li{margin-bottom:.35em}
+.prose blockquote{margin:1.4rem 0;padding-left:1.1rem;border-left:3px solid var(--rule);color:var(--muted);font-style:italic}
+.prose table{display:block;overflow-x:auto;border-collapse:collapse;margin:1.6rem 0;font-size:1rem;line-height:1.45}
+.prose th{font-family:var(--sign);font-weight:600;text-align:left;border-bottom:2px solid var(--ink);padding:.4rem .9rem .4rem 0;white-space:nowrap}
+.prose td{border-bottom:1px solid var(--rule);padding:.5rem .9rem .5rem 0;vertical-align:top;font-variant-numeric:tabular-nums}
+.prose figure{margin:2rem 0;background:var(--board);border:1px solid var(--rule);padding:1rem;overflow-x:auto}
+.prose figure svg{min-width:36rem}
+.prose figure svg,.prose figure img{display:block;width:100%;height:auto}
+.prose figcaption{font-family:var(--sign);font-weight:500;color:var(--muted);font-size:1rem;line-height:1.4;margin-top:.7rem}
+.prose code{font-size:.92em;background:var(--board);border:1px solid var(--rule);padding:0 .25em;border-radius:3px}
+.prose hr{border:0;border-top:1px solid var(--rule);margin:2.2rem 0}
+
+.sources{margin:3rem 0 0;padding-top:1.4rem;border-top:2px solid var(--ink)}
+.sources h2{font-weight:700;font-size:1.35rem;margin-bottom:.8rem}
+.sources ol{margin:0 0 1rem;padding-left:1.3rem;font-size:1rem;line-height:1.5}
+.sources li{margin-bottom:.55rem}
+.sources li .note{display:block}
+.support,.byline{margin:2rem 0 0;background:var(--board);border:1px solid var(--rule);padding:1rem 1.25rem;font-size:1.02rem}
+.support p,.byline p{margin:0}.support p + p{margin-top:.8rem}
+.button{display:inline-block;font-family:var(--sign);font-weight:600;font-size:1.1rem;background:var(--ink);color:var(--board);padding:.45rem 1rem;border-radius:4px;text-decoration:none}
+.button:hover{background:var(--line)}
+.next{display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:1rem;margin:2rem 0 0}
+.next a{display:block;font-family:var(--sign);font-weight:600;font-size:1.15rem;line-height:1.25;text-decoration:none;border-top:4px solid var(--line);padding-top:.6rem}
+.next a span{display:block;font-weight:500;color:var(--muted);font-size:1rem}
+
+.foot{margin-top:4rem;border-top:1px solid var(--rule);background:var(--board);padding:1.6rem 0 2.4rem;font-size:.98rem;color:var(--muted)}
+.foot p{margin:0 0 .5rem;max-width:60ch}
+
+@media (max-width:34rem){
+  :root{--gutter:1.25rem}
+  body{font-size:1.06rem}
+  .wrap{padding:0 1rem}
+  .actually .val{font-size:1.55rem}
+}
+@media print{.top nav,.next,.support,.skip{display:none}body{background:#fff}}

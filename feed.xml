@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Yokohama &amp; Fujisawa, Actually</title>
+  <subtitle>Two cities south of Tokyo, written up by someone who lives here. Prices checked, trains timed.</subtitle>
+  <link href="https://nakamurakzz.github.io/yokohama-fujisawa/feed.xml" rel="self"/>
+  <link href="https://nakamurakzz.github.io/yokohama-fujisawa/"/>
+  <id>https://nakamurakzz.github.io/yokohama-fujisawa/</id>
+  <updated>2026-11-20T06:14:18+00:00</updated>
+  <author><name>Kaz</name></author>
+  <entry>
+    <title>The map residents actually use for Yokohama and Fujisawa</title>
+    <link href="https://nakamurakzz.github.io/yokohama-fujisawa/yokohama-fujisawa-residents-map/"/>
+    <id>https://nakamurakzz.github.io/yokohama-fujisawa/yokohama-fujisawa-residents-map/</id>
+    <published>2026-11-20T03:00:00Z</published>
+    <updated>2026-11-20T03:00:00Z</updated>
+    <summary>A resident&#39;s orientation to Yokohama and Fujisawa: population by ward, the three railways linking them, and fares and times checked in November 2026.</summary>
+    <content type="html">&lt;p&gt;Most guides give you two dots. One is Yokohama&amp;rsquo;s harbour: Minato Mirai, Chinatown, Yamashita Park. The other is Enoshima, the small island off Fujisawa&amp;rsquo;s beach. Both are worth a day. Together they cover a thin slice of the two cities.&lt;/p&gt;
+&lt;p&gt;I live in the rest. My part of Yokohama is one I call its countryside. I&amp;rsquo;m a software engineer and a father of two, and I ride a 125cc Honda Monkey. This site is where I write the two cities down as the people here use them, with the prices and the minutes checked.&lt;/p&gt;
+&lt;p&gt;This first piece is the map. Learn three railway lines and everything else on the site will fall into place.&lt;/p&gt;
+&lt;h2 id=&#34;yokohama-is-18-wards-and-the-harbour-is-two-of-them&#34;&gt;Yokohama is 18 wards, and the harbour is two of them&lt;/h2&gt;
+&lt;p&gt;Yokohama had 3,753,462 residents on 1 October 2026, by the city&amp;rsquo;s own estimate. It is the most populous municipality in Japan. Tokyo is larger, but Tokyo is run as 23 separate wards, each counted on its own.&lt;/p&gt;
+&lt;p&gt;The city covers 438 square kilometres and is divided into 18 wards (ku, 区). The harbour that visitors photograph sits in two of them, Nishi and Naka. On 1 November 2024 those two wards held about 261,000 people, out of 3.77 million. That is about 7%.&lt;/p&gt;
+&lt;p&gt;The other 93% live inland and along the railways. Kohoku ward alone had 365,668 residents in July 2026. Most visitors never hear the names of wards like Totsuka, Asahi, Izumi and Seya, and that is where a large part of the city sleeps.&lt;/p&gt;
+&lt;p&gt;This has a practical consequence. The Yokohama of supermarkets, schools, rents and commutes is the inland one. If you are choosing where to stay for a week or where to live for a year, the harbour tells you little.&lt;/p&gt;
+&lt;h2 id=&#34;fujisawa-is-three-towns-stacked-north-to-south&#34;&gt;Fujisawa is three towns stacked north to south&lt;/h2&gt;
+&lt;p&gt;Fujisawa is smaller: about 445,000 people on the resident register on 1 January 2025. It has been a city since 1940. Enoshima is part of it, which surprises people who assume the island belongs to Kamakura next door.&lt;/p&gt;
+&lt;p&gt;Think of Fujisawa as three bands.&lt;/p&gt;
+&lt;p&gt;The south is the coast on Sagami Bay: the beaches of Katase, Kugenuma and Tsujido, and Enoshima. The land here is flat.&lt;/p&gt;
+&lt;p&gt;The middle is Fujisawa Station (藤沢), where the shops are, and where JR, the Odakyu line and the Enoden meet.&lt;/p&gt;
+&lt;p&gt;The north is low hills, and its main station is Shonandai (湘南台). Three railways stop there, and two of them end there.&lt;/p&gt;
+&lt;p&gt;Six railway operators run inside this one city: JR&amp;rsquo;s Tokaido Main Line, Odakyu, Sotetsu, the Enoden, the Yokohama Municipal Subway and the Shonan Monorail. That much track is the reason Fujisawa works as a base for a whole trip, well beyond one afternoon on the island.&lt;/p&gt;
+&lt;h2 id=&#34;three-lines-tie-the-two-cities-together&#34;&gt;Three lines tie the two cities together&lt;/h2&gt;
+&lt;figure&gt;
+&lt;svg viewBox=&#34;0 0 720 480&#34; role=&#34;img&#34; aria-label=&#34;Schematic map of the railways between Yokohama and Fujisawa&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; font-family=&#34;Barlow Semi Condensed, Arial Narrow, sans-serif&#34;&gt;
+&lt;title&gt;Railways between Yokohama and Fujisawa&lt;/title&gt;
+&lt;rect width=&#34;720&#34; height=&#34;480&#34; fill=&#34;#FFFFFF&#34;/&gt;
+&lt;path d=&#34;M20 232 L700 400&#34; stroke=&#34;#D3DDE5&#34; stroke-width=&#34;2&#34; stroke-dasharray=&#34;7 7&#34; fill=&#34;none&#34;/&gt;
+&lt;text x=&#34;590&#34; y=&#34;262&#34; font-size=&#34;30&#34; font-weight=&#34;700&#34; fill=&#34;#D3DDE5&#34;&gt;Yokohama&lt;/text&gt;
+&lt;text x=&#34;28&#34; y=&#34;420&#34; font-size=&#34;30&#34; font-weight=&#34;700&#34; fill=&#34;#D3DDE5&#34;&gt;Fujisawa&lt;/text&gt;
+&lt;path d=&#34;M520 80 L300 80 L190 310&#34; stroke=&#34;#52677A&#34; stroke-width=&#34;6&#34; fill=&#34;none&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;path d=&#34;M520 80 L430 220 L330 380&#34; stroke=&#34;#14283C&#34; stroke-width=&#34;6&#34; fill=&#34;none&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;path d=&#34;M520 80 L650 80 Q676 80 672 110 L664 150 Q660 170 640 172 L430 220 L190 310&#34; stroke=&#34;#0A62AE&#34; stroke-width=&#34;6&#34; fill=&#34;none&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;path d=&#34;M190 310 L330 380 L330 448&#34; stroke=&#34;#2A7354&#34; stroke-width=&#34;6&#34; fill=&#34;none&#34; stroke-linejoin=&#34;round&#34;/&gt;
+&lt;g fill=&#34;#FFFFFF&#34; stroke=&#34;#14283C&#34; stroke-width=&#34;4&#34;&gt;
+&lt;circle cx=&#34;520&#34; cy=&#34;80&#34; r=&#34;11&#34;/&gt;&lt;circle cx=&#34;650&#34; cy=&#34;80&#34; r=&#34;9&#34;/&gt;&lt;circle cx=&#34;300&#34; cy=&#34;80&#34; r=&#34;9&#34;/&gt;
+&lt;circle cx=&#34;430&#34; cy=&#34;220&#34; r=&#34;9&#34;/&gt;&lt;circle cx=&#34;190&#34; cy=&#34;310&#34; r=&#34;11&#34;/&gt;&lt;circle cx=&#34;330&#34; cy=&#34;380&#34; r=&#34;11&#34;/&gt;&lt;circle cx=&#34;330&#34; cy=&#34;448&#34; r=&#34;9&#34;/&gt;
+&lt;/g&gt;
+&lt;g font-size=&#34;19&#34; font-weight=&#34;700&#34; fill=&#34;#14283C&#34;&gt;
+&lt;text x=&#34;520&#34; y=&#34;56&#34; text-anchor=&#34;middle&#34;&gt;Yokohama&lt;/text&gt;
+&lt;text x=&#34;650&#34; y=&#34;56&#34; text-anchor=&#34;middle&#34;&gt;Sakuragicho&lt;/text&gt;
+&lt;text x=&#34;300&#34; y=&#34;56&#34; text-anchor=&#34;middle&#34;&gt;Futamatagawa&lt;/text&gt;
+&lt;text x=&#34;412&#34; y=&#34;204&#34; text-anchor=&#34;end&#34;&gt;Totsuka&lt;/text&gt;
+&lt;text x=&#34;172&#34; y=&#34;304&#34; text-anchor=&#34;end&#34;&gt;Shonandai&lt;/text&gt;
+&lt;text x=&#34;350&#34; y=&#34;374&#34;&gt;Fujisawa&lt;/text&gt;
+&lt;text x=&#34;350&#34; y=&#34;454&#34;&gt;Katase-Enoshima&lt;/text&gt;
+&lt;/g&gt;
+&lt;g font-size=&#34;16&#34; font-weight=&#34;500&#34;&gt;
+&lt;text x=&#34;650&#34; y=&#34;36&#34; text-anchor=&#34;middle&#34; fill=&#34;#52677A&#34;&gt;the harbour&lt;/text&gt;
+&lt;text x=&#34;410&#34; y=&#34;286&#34; fill=&#34;#14283C&#34;&gt;JR Tokaido Line&lt;/text&gt;
+&lt;text x=&#34;410&#34; y=&#34;306&#34; fill=&#34;#14283C&#34;&gt;Fujisawa to Yokohama, 20 min&lt;/text&gt;
+&lt;text x=&#34;585&#34; y=&#34;120&#34; text-anchor=&#34;middle&#34; fill=&#34;#0A62AE&#34;&gt;Blue Line&lt;/text&gt;
+&lt;text x=&#34;585&#34; y=&#34;140&#34; text-anchor=&#34;middle&#34; fill=&#34;#0A62AE&#34;&gt;37 min, ¥370&lt;/text&gt;
+&lt;text x=&#34;96&#34; y=&#34;130&#34; fill=&#34;#52677A&#34;&gt;Sotetsu Izumino Line&lt;/text&gt;
+&lt;text x=&#34;96&#34; y=&#34;150&#34; fill=&#34;#52677A&#34;&gt;27 min riding, ¥370&lt;/text&gt;
+&lt;text x=&#34;232&#34; y=&#34;368&#34; text-anchor=&#34;end&#34; fill=&#34;#2A7354&#34;&gt;Odakyu: 7 min, ¥200&lt;/text&gt;
+&lt;text x=&#34;350&#34; y=&#34;416&#34; fill=&#34;#2A7354&#34;&gt;Odakyu Enoshima Line&lt;/text&gt;
+&lt;text x=&#34;700&#34; y=&#34;424&#34; text-anchor=&#34;end&#34; fill=&#34;#52677A&#34;&gt;city boundary (not to scale)&lt;/text&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+&lt;figcaption&gt;The three lines from Fujisawa into Yokohama, and the Odakyu line that joins Shonandai to the coast. Times and fares checked on 19 November 2026.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;strong&gt;The JR Tokaido Line&lt;/strong&gt; is the fast one. Fujisawa Station to Yokohama Station takes 20 minutes. Stay inside the JR gates, ride the Negishi Line one more stop, and you are at Sakuragicho (桜木町), the station for the harbour. The JR fare from Fujisawa to Sakuragicho is ¥440.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Blue Line&lt;/strong&gt; is Yokohama&amp;rsquo;s municipal subway. It has 32 stations and runs from Azamino in the north of the city to Shonandai. Its last stop is across the city boundary, in Fujisawa. From Shonandai it reaches Sakuragicho with no change in 37 minutes for ¥370. It is slower than JR, and you never have to think.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Sotetsu Izumino Line&lt;/strong&gt; also ends at Shonandai. It reaches Yokohama Station by way of Futamatagawa (二俣川). On the trains checked for this piece, the ride was 11 minutes to Futamatagawa and 16 minutes on from there, and the fare for the whole ride was ¥370.&lt;/p&gt;
+&lt;p&gt;Inside Fujisawa, the Odakyu Enoshima Line joins the north to the middle. Shonandai to Fujisawa Station is 7 minutes by express and costs ¥200. The same line continues to Katase-Enoshima, the station nearest the island. The Enoden leaves from Fujisawa Station too, and runs along the coast to Kamakura.&lt;/p&gt;
+&lt;p&gt;Every fare and time above is for a weekday morning, looked up on 19 November 2026. With an IC card such as Suica or PASMO a few of these fares come out ¥1 to ¥7 lower.&lt;/p&gt;
+&lt;h2 id=&#34;old-guides-have-the-wrong-jr-fares&#34;&gt;Old guides have the wrong JR fares&lt;/h2&gt;
+&lt;p&gt;JR East raised its fares on 14 March 2026. The company described it as its first fare revision since it was created in 1987, and the minimum fare went from ¥150 to ¥160. A JR fare printed in a guide from before that date is wrong.&lt;/p&gt;
+&lt;p&gt;Every fare on this site carries the date it was checked. When a fare changes, the piece gets corrected and the correction is dated.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-not-good-about-this-map&#34;&gt;What is not good about this map&lt;/h2&gt;
+&lt;p&gt;The lines do not meet where you want them to. Shonandai and Fujisawa Station are both in Fujisawa, and they are 7 minutes and ¥200 apart on a different company&amp;rsquo;s train.&lt;/p&gt;
+&lt;p&gt;Japanese railways charge per operator. A trip that uses two companies costs two fares. Shonandai to Sakuragicho is ¥370 on the Blue Line alone. Go by Odakyu and JR through Fujisawa Station and the same trip is ¥640. It took 43 minutes on the morning checked, 6 minutes longer than the subway. The route that looks clever costs ¥270 more and saves no time.&lt;/p&gt;
+&lt;p&gt;The Blue Line is slow. Those 37 minutes cover 20.4 km, which works out to about 33 km/h.&lt;/p&gt;
+&lt;p&gt;And this map leaves out buses, which many inland neighbourhoods depend on. No bus fares were checked for this piece, so there are none in it.&lt;/p&gt;
+&lt;h2 id=&#34;how-to-use-it&#34;&gt;How to use it&lt;/h2&gt;
+&lt;p&gt;If you are visiting, choose where you sleep by line. A hotel near Yokohama Station is 20 minutes from Fujisawa Station on JR, and Fujisawa Station is where the Odakyu line and the Enoden leave for Enoshima.&lt;/p&gt;
+&lt;p&gt;If you are thinking of living here, choose the line first and the ward second. The line decides your commute and your fare. The ward decides which city office you queue at.&lt;/p&gt;
+&lt;p&gt;Before you compare two routes, count the companies. One company, one fare.&lt;/p&gt;
+&lt;p&gt;Every piece on this site says which line it is on.&lt;/p&gt;</content>
+  </entry>
+</feed>
